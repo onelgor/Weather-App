@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #00BFFF, #FF8C00); /* Gradient with teal and orange */
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* A modern and clean font */
+    color: #FFF; /* White text */
+}
+
+.SearchBox {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.SearchBox form {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift */
+}
+
+.TextField-root {
+    margin-right: 10px;
+}
+
+.Button-root {
+    background: #FF8C00; /* Orange button */
+    color: #FFF; /* White text */
+    &:hover {
+        background: #FF6347; /* Darker orange on hover */
+    }
+}
+
+.InfoBox {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
